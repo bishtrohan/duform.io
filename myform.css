@@ -1,0 +1,44 @@
+body{
+    background-image:linear-gradient(rgba(35, 75, 255, 0.7),rgba(35, 75, 255, 0.7)),url(students.jpg) ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+    color: white;
+}
+form{
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 60vh;
+    margin-right: 60vh;
+    padding: 30px;
+    font-size: 30px;
+}
+.tag{
+    background-color:white;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+}
+label{
+    color:white;
+    display: block;
+}
+.clabel{
+    display: inline;
+}
+div{
+    margin-top: 30px;
+}
+#sbtn{
+    background-color: green;
+    width:100%;
+    height: 40px;
+    border-radius: 10px;
+    color: ivory;
+    font-size: 21px;
+}

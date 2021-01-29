@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="myform.css">
+</head>
+
+<body>
+    <h1>DU REGISTRATION FORM</h1>
+    <form action="">
+        <div>
+            <label for="myname">Name</label>
+            <input type="text" id="myname" class="tag" required placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label for="mymail">Email</label>
+            <input type="email" id="mymail" class="tag" required placeholder="Enter your email id">
+        </div>
+
+        <div>
+            <label for="myphone">Mobile Number</label>
+            <input type="tel" id="myphone" class="tag" required placeholder="Enter your mobile number">
+        </div>
+
+        <div>
+            <label for="myaddress">Address</label>
+            <input type="text" id="myaddress" class="tag" required placeholder="Enter your address">
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" class="tag" required placeholder="Enter your date of birth">
+        </div>
+
+        <div>
+            <label for="stream">Stream</label>
+            <select name="str" id="stream" class="tag" required>
+                <option disabled selected value>Select any one</option>
+                <option value="arts">Arts</option>
+                <option value="science">Science</option>
+                <option value="commerce">Commerce</option>
+            </select>
+        </div>
+        
+        <div id="choosecourse">
+            <label for="choosecourse">Which course you want to choose?</label>
+                <input type="radio" id="course1" name="course" required>
+                <label for="course1" class="clabel">B.A</label>
+                
+                <input type="radio" id="course2" name="course">
+                <label for="course2"  class="clabel">B.Sc</label>
+                
+                <input type="radio" id="course3" name="course">
+                <label for="course3"  class="clabel">B.Com</label>
+        </div>
+
+        <div>
+            <input type="submit" id="sbtn">
+        </div>
+
+    </form>
+</body>
+
+</html>
